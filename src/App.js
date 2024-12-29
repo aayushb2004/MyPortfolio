@@ -1,14 +1,12 @@
 import './App.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navbar from './components/Navbar';
 import Hero from './components/HeroSection';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import styled, { ThemeProvider } from 'styled-components';
 import Projects from "./components/Projects";
-import ProjectDetails from "./components/ProjectDetails";
-import Education from "./components/Education";
-import { darkTheme } from './utils/Theme';
+import { darkTheme} from './utils/Themes.js'
 import Contact from './components/Contact';
 
 const Body = styled.div`
@@ -26,7 +24,6 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
   return (
