@@ -164,7 +164,7 @@ const Button = styled.a`
     border-radius: 8px;
     background-color: ${({ theme }) => theme.primary};
     ${({ dull, theme }) => dull && `
-        background-color: ${theme.bgLight};
+        background-color: ${theme.bgDark};
         color: ${theme.text_secondary};
         &:hover {
             background-color: ${({ theme }) => theme.bg + 99};
@@ -226,8 +226,8 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        <Button dull href={project?.github} target='new'>View Project</Button>
+                        {/* <Button href={project?.webapp} target='new'>View Live App</Button> */}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
