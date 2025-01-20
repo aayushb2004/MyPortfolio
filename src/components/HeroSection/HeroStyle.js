@@ -44,7 +44,7 @@ export const HeroBg = styled.div`
 export const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 1100px;
@@ -97,7 +97,7 @@ export const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
@@ -129,7 +129,7 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   display: flex;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
@@ -150,8 +150,8 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 15px;
+  line-height: 25px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
 
@@ -167,7 +167,7 @@ export const SubTitle = styled.div`
 
 export const ButtonContainer = styled.div`
     display: flex;
-    justify-content: center; /* Centers the buttons horizontally */
+    justify-content: left; /* Centers the buttons horizontally */
     align-items: center; /* Centers the buttons vertically if needed */
     gap: 20px; /* Adds space between the buttons */
     margin-top: 20px; /* Adjust spacing above the buttons as needed */

@@ -16,7 +16,7 @@ const Projects = () => {
                     I have worked on a wide range of projects. From web apps to Product Management. Here are some of my projects.
                 </Desc>
                 <ToggleButtonGroup>
-                    {['all', 'web app', 'product management', 'machine learning'].map((category) => (
+                    {['all', 'product management', 'machine learning'].map((category) => (
                         <React.Fragment key={category}>
                             <ToggleButton 
                                 active={toggle === category}

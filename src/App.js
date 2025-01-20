@@ -32,7 +32,7 @@ function App() {
         <Navbar />
         <Hero />
         <Wrapper>
-          <Skills />
+          {/* <Skills /> */}
           <Experience/>
         </Wrapper>
         <Projects openModal={openModal} setOpenModal={setOpenModal} />

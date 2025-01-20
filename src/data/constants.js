@@ -6,11 +6,12 @@ export const Bio = {
     sde: "https://drive.google.com/file/d/1U2gmhKq-R2S7CLDmAsZBiO4gI9O5SskQ/view",
     name: "Aayush Birle",
     roles: [
-        "Front-End Developer",
+        // "Front-End Developer",
         "Aspiring Product Manager",
     ],
     description:
-    "I’m deeply passionate about product and technology, with hands-on experience in product management since my first year of college. I've participated in and won multiple national-level product case competitions. As an aspiring web developer, I love building intuitive and user-friendly products, blending my product sense with technical expertise to create impactful solutions.",
+    ["I am a third-year student at IIT (BHU) Varanasi with a deep passion for product management, product design, and product analytics. Since my first year, I've explored various business domains, gaining hands-on experience through internships and national-level case competitions. I have represented IIT BHU in multiple prestigious case competitions, honing my problem-solving and strategic thinking skills.",
+    "In addition to my product-focused background, I am passionate about technology. I enjoy combining my product management skills with data and machine learning. I have a strong foundation in data structures and algorithms, solving 800+ problems across platforms like Leetcode, Codeforces, and Codechef. I thrive on using data and tech to drive impactful product decisions. Currently, I am actively seeking opportunities in product management, product design, or product analytics roles, where I can leverage my skills to solve real-world challenges."],
 };
     export const skills = [
         {
@@ -146,9 +147,9 @@ export const experiences = [
       role: "Founder's Office Intern: Partner Developement Team",
       company: "Hotelogix",
       date: "October 2024 - Present",
-      desc: "Finding potential partners for Hotelogix Partner's Program in Maldives, Sri Lanka, UAE, Kenya & Mexico",
+      desc: "As an intern at Hotelogix, a global leader in hospitality technology, I conducted extensive research across multiple regions including Sri Lanka, Maldives, UAE, Kenya, Tanzania, Vietnam, and Mexico to identify potential partners for the Hotelogix Partner Program. I researched over 300 potential partners and coordinated with the Alliance lead to build relationships with these companies, ensuring alignment with Hotelogix’s solutions, including its cloud-based Property Management System, Channel Manager, Web Booking Engine, and Mobile App.",
       skills: [
-        
+        "Partner Research & Outreach", "Business Development", "Strategic Alliances", "Market Expansion Analysis"
       ],
       doc: "",
     },
@@ -158,9 +159,9 @@ export const experiences = [
       role: "Founder's Office Intern",
       company: "Subhag HealthTech",
       date: "May 2024 - July 2024",
-      desc: "Worked with the founder in optimising the supply chain",
+      desc: " I uncovered a significant market gap in Assisted Reproductive Technology (ART) services, reaching out to over 40,000 gynecologists to improve the availability of infertility solutions. I devised more than four transportation strategies that enhanced the sustainable delivery and shelf life of reagents for end users. Additionally, I designed cost-effective logistics methods that extended the reagent shelf life by 24 hours while reducing transport costs by 10%.",
       skills: [
-       
+       "Market Gap Analysis", "Logistics Optimization", "Supply Chain Management", "Cost Reduction Strategies"
       ],
       doc: "",
     },
@@ -170,71 +171,71 @@ export const experiences = [
       role: "Product Strategy Intern",
       company: "Entwik Gaming",
       date: "December 2023 - January 2024",
-      desc: "Assisted the founder in market research, competitor analysis and contributed in a Go-To-Market Strategy. Also assisted the founder in raising funds resulting in 50 lakh+ of investment from different investors",
+      desc: "As a Product Strategy Intern at Entwik Gaming, I conducted in-depth research on a user base of 78 million, identifying a market potential of $1.1 billion for Cash Rummy. I developed and implemented growth strategies that reduced churn while increasing weekly user retention by 15%. Additionally, I designed a compelling pitch deck that played a key role in securing $50,000 in funding from venture capital firms.",
       skills: [
-       
+       "Market Research", "Growth Strategy", "Pitch Deck Design", "User Retention Optimization"
       ],
     },
     
   ];
 
   export const projects = [
-    {
-      id: 1,
-      title: "Anonymous Messaging App with AI integration",
-      date: "MAy 2024 - Jun 2024",
-      description:
-        "Developed a full-stack anonymous messaging platform with robust authentication and authorization features. Employed OpenAI's GPT-3.5 for generating engaging conversation prompts within the application. Developed integrated REST APIs and Next.js API routes for seamless user management and messaging.",
-      image:
-        "/Anonymous.png",
-      tags: [
-        "NextJs",
-        "MongoDB",
-        "TypeScript",
-        "Express Js",
-        "Bcrpt Js",
-        "NextAuth Js",
-        "React Js",
-        "MongoDb",
-        "Tailwind CSS",
-        "OpenAI GPT-3.5",
+    // {
+    //   id: 1,
+    //   title: "Anonymous Messaging App with AI integration",
+    //   date: "MAy 2024 - Jun 2024",
+    //   description:
+    //     "Developed a full-stack anonymous messaging platform with robust authentication and authorization features. Employed OpenAI's GPT-3.5 for generating engaging conversation prompts within the application. Developed integrated REST APIs and Next.js API routes for seamless user management and messaging.",
+    //   image:
+    //     "/Anonymous.png",
+    //   tags: [
+    //     "NextJs",
+    //     "MongoDB",
+    //     "TypeScript",
+    //     "Express Js",
+    //     "Bcrpt Js",
+    //     "NextAuth Js",
+    //     "React Js",
+    //     "MongoDb",
+    //     "Tailwind CSS",
+    //     "OpenAI GPT-3.5",
     
-      ],
-      category: "web app",
-      github: "https://github.com/aayushb2004/Nextjs-with-AI-integration",
-      webapp: "https://trackify.duckdns.org",
-    },
-    {
-      id: 2,
-      title: "E-Commerce website",
-      date: "Apr 2024 - May 2024",
-      description:
-        "A robust and user-friendly e-commerce platform that integrates secure authentication using NextAuth with Google OAuth credentials stored securely in environment variables. The platform features AWS S3 integration for efficient file uploads and utilizes Stripe for seamless payment processing and order management. It provides an intuitive interface for browsing the latest products, searching across categories, and includes a comprehensive admin panel for efficient management of the platform.",
-      image:
-        "/E commerce.png",
-      tags: ["React Js", "MongoDb", "Next Auth", "Tailwind CSS", "Next Js"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-    },
-    {
-      id: 3,
-      title: "Codeforces Cheat Detector",
-      date: "Mar 2024 - Apr 2024",
-      description:
-        "A real-time cheat detection tool using the Codeforces API to analyze user data dynamically, with reusable custom hooks for efficient and maintainable logic.",
-      image:
-        "/codeforces.png",
-      tags: [
-        "JavaScript",
-        "React",
-        "Context API",
-        "Tailwind CSS",
-      ],
-      category: "web app",
-      github: "https://github.com/aayushb2004/cf-cheat-detector",
-      webapp: "https://vexa-app.netlify.app/",
-    },
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/aayushb2004/Nextjs-with-AI-integration",
+    //   webapp: "https://trackify.duckdns.org",
+    // },
+    // {
+    //   id: 2,
+    //   title: "E-Commerce website",
+    //   date: "Apr 2024 - May 2024",
+    //   description:
+    //     "A robust and user-friendly e-commerce platform that integrates secure authentication using NextAuth with Google OAuth credentials stored securely in environment variables. The platform features AWS S3 integration for efficient file uploads and utilizes Stripe for seamless payment processing and order management. It provides an intuitive interface for browsing the latest products, searching across categories, and includes a comprehensive admin panel for efficient management of the platform.",
+    //   image:
+    //     "/E commerce.png",
+    //   tags: ["React Js", "MongoDb", "Next Auth", "Tailwind CSS", "Next Js"],
+    //   category: "web app",
+    //   github: "https://github.com/rishavchanda/Podstream",
+    //   webapp: "https://podstream.netlify.app/",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Codeforces Cheat Detector",
+    //   date: "Mar 2024 - Apr 2024",
+    //   description:
+    //     "A real-time cheat detection tool using the Codeforces API to analyze user data dynamically, with reusable custom hooks for efficient and maintainable logic.",
+    //   image:
+    //     "/codeforces.png",
+    //   tags: [
+    //     "JavaScript",
+    //     "React",
+    //     "Context API",
+    //     "Tailwind CSS",
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/aayushb2004/cf-cheat-detector",
+    //   webapp: "https://vexa-app.netlify.app/",
+    // },
     {
       id: 4,
       title: "QSAR Modeling for Drug Properties",
